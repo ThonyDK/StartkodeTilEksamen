@@ -11,6 +11,10 @@ public class TestEntityService {
     @Autowired
     TestRepository testRepository;
 
+    public void TestEntityService(TestRepository testRepository) {
+        this.testRepository = testRepository;
+    }
+
     //fx. Get a List of something
 
     //fx. Convert Entity til DTO fx TestEntityResponse

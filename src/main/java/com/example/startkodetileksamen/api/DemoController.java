@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+
 @CrossOrigin("*")// Annotation find frem til hvad det gør
+@RestController
 @RequestMapping("api/TestEntity")
 public class DemoController {
 }

@@ -7,6 +7,8 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Controller;
 
+
+@Profile("!test")
 @Controller
 public class MakeTestData implements ApplicationRunner {
 
